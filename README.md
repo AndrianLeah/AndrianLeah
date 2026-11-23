@@ -13,7 +13,7 @@ My day-to-day work lives in On Page's private repositories. What you see here ar
 
 - **Sole owner of the product UI.** Requirements, UX and UI analysis, design, implementation and testing for the whole application.
 - **Part of the decision-making.** I join the company's product, planning and management calls, and bring the UI and UX perspective to them.
-- **Front-end rewrite on a new design system.** I designed a library of more than 160 components and rebuilt the product's interface on top of it.
+- **Front-end rewrite on a new design system.** I designed an 87-component library and rebuilt the product's interface on top of it.
 - **Complex modules beyond the core PIM:** ticketing, Gantt planning, and a visual template builder that renders PIM data with loops, conditions and local data handling, backed by a separate Vue rendering library that also produces print-ready PDFs.
 - **An AI-assisted UI workflow,** so that colleagues who only occasionally touch the front end still ship consistent, well-built pages:
   1. Analyse the current behaviour and lock it in with characterization tests, unit and end-to-end.
