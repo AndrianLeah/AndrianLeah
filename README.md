@@ -5,6 +5,8 @@ Building for the web since 2018. Working full remote from Rimini, Italy.
 
 I lead the user interface of On Page, a SaaS PIM (product information management) platform. In a four-person R&D team, I am the only one responsible for the UI: from gathering requirements and UX analysis to design and implementation. I rewrote the product's front end on a design system I created, and I designed the AI-assisted workflow the company now uses to build and evolve its UI. In a small company, I also take part in product and management decisions.
 
+My day-to-day work lives in On Page's private repositories. What you see here are side projects I build in my limited spare time, which AI agents have made possible.
+
 [LinkedIn](https://www.linkedin.com/in/andrian-leah/)
 
 ## At On Page
