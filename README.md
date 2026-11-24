@@ -40,8 +40,8 @@ I built these while setting up the workflow above for the ArtCraft creative suit
 
 | Project | What it does |
 | --- | --- |
-| [craft-mcp-hub](https://github.com/AndrianLeah/craft-mcp-hub)<br>[![Stars](https://img.shields.io/github/stars/AndrianLeah/craft-mcp-hub?style=flat&label=stars&color=1ba572)](https://github.com/AndrianLeah/craft-mcp-hub/stargazers) [![Downloads](https://img.shields.io/github/downloads/AndrianLeah/craft-mcp-hub/total?color=1ba572)](https://github.com/AndrianLeah/craft-mcp-hub/releases) | One shared MCP server per ArtCraft app, for every AI client. Colleagues set up the whole design workflow in one click. |
-| [ai-remove-lightcraft](https://github.com/AndrianLeah/ai-remove-lightcraft)<br>[![Stars](https://img.shields.io/github/stars/AndrianLeah/ai-remove-lightcraft?style=flat&label=stars&color=f5c518)](https://github.com/AndrianLeah/ai-remove-lightcraft/stargazers) [![Downloads](https://img.shields.io/github/downloads/AndrianLeah/ai-remove-lightcraft/total?color=f5c518)](https://github.com/AndrianLeah/ai-remove-lightcraft/releases) | Removes objects, people and reflections from photos with local AI models, and writes the result back into a RAW DNG. |
+| [craft-mcp-hub](https://github.com/AndrianLeah/craft-mcp-hub)<br>[![Stars](badges/craft-mcp-hub-stars.svg)](https://github.com/AndrianLeah/craft-mcp-hub/stargazers) [![Downloads](badges/craft-mcp-hub-downloads.svg)](https://github.com/AndrianLeah/craft-mcp-hub/releases) | One shared MCP server per ArtCraft app, for every AI client. Colleagues set up the whole design workflow in one click. |
+| [ai-remove-lightcraft](https://github.com/AndrianLeah/ai-remove-lightcraft)<br>[![Stars](badges/ai-remove-lightcraft-stars.svg)](https://github.com/AndrianLeah/ai-remove-lightcraft/stargazers) [![Downloads](badges/ai-remove-lightcraft-downloads.svg)](https://github.com/AndrianLeah/ai-remove-lightcraft/releases) | Removes objects, people and reflections from photos with local AI models, and writes the result back into a RAW DNG. |
 
 ### Also on GitHub
 
