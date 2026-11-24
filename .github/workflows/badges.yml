@@ -1,0 +1,40 @@
+# Redraws the stars and downloads badges of the README once a day (see scripts/badges.mjs).
+name: Badges
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/badges.mjs, .github/workflows/badges.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badges
+  cancel-in-progress: false
+
+jobs:
+  badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/badges.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit the badges if a number changed
+        run: |
+          git add badges
+          if git diff --cached --quiet; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update the stars and downloads badges"
+          git push
